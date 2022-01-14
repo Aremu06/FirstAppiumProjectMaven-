@@ -21,7 +21,6 @@ public class AndInteractWithApps {
         driver.findElement(views).click();
         System.out.println(driver.isAppInstalled("io.appium.android.apis"));
 
-
         Thread.sleep(5000);
         System.out.println(driver.queryAppState("io.appium.android.apis"));
         Thread.sleep(5000);
@@ -36,6 +35,5 @@ public class AndInteractWithApps {
                 + "resources" + File.separator + "ApiDemos-debug.apk";
         driver.installApp(andappUrl, new AndroidInstallApplicationOptions().withReplaceEnabled());
 */
-
     }
 }

@@ -28,10 +28,5 @@ public class DragAndDrop {
 
         t.longPress(element(source)).moveTo(element(destination)).release().perform();
 
-
-
-
-
-
     }
 }

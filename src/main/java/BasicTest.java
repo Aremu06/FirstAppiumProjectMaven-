@@ -24,6 +24,5 @@ public class BasicTest {
         driver.findElement(wifiSettings).click();
         driver.findElement(edit).sendKeys("12345566");
         driver.findElement(button).click();
-
     }
 }

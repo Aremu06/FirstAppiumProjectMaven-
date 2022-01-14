@@ -13,7 +13,5 @@ public class AndLockAndUnlockDevice {
         ((AndroidDriver) driver).lockDevice();
         System.out.println(((AndroidDriver) driver).isDeviceLocked());
         ((AndroidDriver) driver).unlockDevice();
-
-
     }
 }

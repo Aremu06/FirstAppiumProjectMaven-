@@ -20,11 +20,5 @@ public class FetchElementAttributes {
         System.out.println("text:" + driver.findElement(accessibility).isEnabled());
         System.out.println("text:" + driver.findElement(accessibility).isSelected());
 
-
-
-
-
-
-
     }
 }
